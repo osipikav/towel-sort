@@ -1,7 +1,6 @@
 // You should implement your task here.
 
-// module.exports =
-function towelSort(matrix) {
+module.exports = function towelSort(matrix) {
     let finArr = [];
     if (!matrix) {
     } else {
@@ -13,9 +12,5 @@ function towelSort(matrix) {
             }
         }
     }
-    console.log("finArr :>> ", finArr);
-    // return finArr;
-}
-
-const matrix = [];
-towelSort(matrix);
+    return finArr;
+};
